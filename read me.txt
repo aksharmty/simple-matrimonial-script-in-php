@@ -1,0 +1,9 @@
+1.create mysql database
+2.edit dbconnect.php
+3.Upload all file in public_html folder
+
+Requirement :
+php5.3
+mysql5.6.44
+domain 
+linux hosting minimum : 100 mb

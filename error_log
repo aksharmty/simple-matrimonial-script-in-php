@@ -1,0 +1,10 @@
+[07-Aug-2019 15:55:50 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/jeevansa/public_html/dbconnect.php on line 4
+[07-Aug-2019 15:55:50 UTC] PHP Fatal error:  Call to undefined function session_is_registered() in /home/jeevansa/public_html/topmenu.php on line 3
+[07-Aug-2019 15:56:17 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/jeevansa/public_html/dbconnect.php on line 4
+[07-Aug-2019 15:56:17 UTC] PHP Warning:  include(topmenu2.php): failed to open stream: No such file or directory in /home/jeevansa/public_html/home.php on line 214
+[07-Aug-2019 15:56:17 UTC] PHP Warning:  include(topmenu2.php): failed to open stream: No such file or directory in /home/jeevansa/public_html/home.php on line 214
+[07-Aug-2019 15:56:17 UTC] PHP Warning:  include(): Failed opening 'topmenu2.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/jeevansa/public_html/home.php on line 214
+[07-Aug-2019 15:56:17 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/jeevansa/public_html/dbconnect.php on line 4
+[07-Aug-2019 15:56:35 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/jeevansa/public_html/dbconnect.php on line 4
+[07-Aug-2019 15:56:35 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/jeevansa/public_html/dbconnect.php on line 4
+[07-Aug-2019 15:56:35 UTC] PHP Fatal error:  Call to undefined function session_is_registered() in /home/jeevansa/public_html/topmenu.php on line 3

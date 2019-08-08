@@ -1,0 +1,1199 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video
+{
+    display: block;
+}
+mark, rp, rt, ruby, summary, time
+{
+    display: inline;
+}
+
+/* Global properties ======================================================== */
+body
+{
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-image: url(../images/body-bg.jpg);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1em;
+    color: #949595;
+}
+html
+{
+    min-width: 967px;
+}
+html, body
+{
+    height: 100%;
+}
+
+
+
+/* Global Structure ============================================================= */
+#main
+{
+    margin: 0 auto;
+    width: 967px;
+    font-size: .75em;
+}
+
+/* Header */
+header
+{
+    position: relative;
+}
+
+/* Sidebar */
+aside
+{
+    width: 227px;
+    float: left;
+    margin-right: 32px;
+    padding-bottom: 33px;
+}
+
+/* Content */
+section#content
+{
+    float: left;
+    width: 675px;
+    padding-top: 6px;
+}
+
+/* Footer */
+footer
+{
+    padding-left: 3px;
+    background: url(../images/border-left.png) repeat-y left top;
+    color: #535353;
+}
+
+
+
+
+/* Left & Right alignment */
+
+.fleft
+{
+    float: left;
+}
+.fright
+{
+    float: right;
+}
+.clear
+{
+    clear: both;
+}
+
+.col-1, .col-2, .col-3
+{
+    float: left;
+}
+
+.alignright
+{
+    text-align: right;
+}
+.aligncenter
+{
+    text-align: center;
+}
+
+.wrapper
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+/*----- form defaults -----*/
+input, select, textarea
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    vertical-align: middle;
+    font-weight: normal;
+}
+
+fieldset
+{
+    border: 0;
+}
+
+/*----- lists -----*/
+
+.banners
+{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.banners li
+{
+    float: left;
+    padding-left: 4px;
+}
+
+.list li
+{
+    font-size: 1.17em;
+    padding: 0 0 19px 22px;
+    background: url(../images/marker.png) no-repeat left 2px;
+}
+.list li.last
+{
+    padding-bottom: 0;
+}
+
+.list1 li
+{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 27px;
+}
+.list1 li img
+{
+    float: left;
+    margin-right: 22px;
+}
+
+.column-list
+{
+    width: 100%;
+    overflow: hidden;
+}
+.column-list li
+{
+    float: left;
+    width: 203px;
+    margin-right: 27px;
+}
+.column-list li.last
+{
+    margin: 0;
+}
+.column-list li img
+{
+    margin-bottom: 18px;
+}
+
+.events-list
+{
+    width: 100%;
+    overflow: hidden;
+}
+.events-list li
+{
+    float: left;
+    line-height: 1.5em;
+    width: 320px;
+    margin-right: 25px;
+    padding-bottom: 20px;
+}
+.events-list li.alt
+{
+    margin-right: 0;
+}
+.events-list li img
+{
+    float: left;
+    margin-right: 11px;
+}
+
+.testimonials li
+{
+    line-height: 1.5em;
+    padding-bottom: 18px;
+}
+.testimonials li cite
+{
+    font-style: normal;
+}
+.testimonials li h5
+{
+    text-align: right;
+    margin: 0;
+    padding-top: 6px;
+}
+
+/*----- other -----*/
+.img-indent
+{
+    margin: 0 0 20px 0;
+}
+
+.extra-wrap
+{
+    overflow: hidden;
+}
+
+p
+{
+    margin-bottom: 16px;
+    line-height: 1.5em;
+}
+
+dl
+{
+    line-height: 1.5em;
+}
+dl dt
+{
+    font-weight: bold;
+    color: #4b4b4b;
+    margin-bottom: 6px;
+}
+dl dd
+{
+    padding-bottom: 20px;
+}
+dl dd.last
+{
+    padding: 0;
+}
+
+.address dd
+{
+    clear: both;
+}
+.address dd span
+{
+    float: left;
+    width: 96px;
+}
+.address dd a
+{
+    font-size: 1.17em;
+}
+
+address
+{
+    font-style: normal;
+    line-height: 1.5em;
+}
+address a
+{
+    font-size: 1.17em;
+}
+address span
+{
+    float: left;
+    width: 103px;
+}
+
+
+
+/*----- txt, links, lines, titles -----*/
+a
+{
+    color: #12b7f4;
+    outline: none;
+}
+a:hover
+{
+    text-decoration: none;
+}
+
+h1
+{
+    font-size: 20px;
+    line-height: 1em;
+    font-weight: normal;
+    padding: 55px 0 0 3px;
+}
+h1 a
+{
+    color: #fff;
+    text-decoration: none;
+}
+h1 strong
+{
+    font-size: 55px;
+    line-height: 1.2em;
+    letter-spacing: -2px;
+    top: -37px;
+    position: relative;
+}
+h2
+{
+    font-size: 1.917em;
+    line-height: 1.2em;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+h5
+{
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #4b4b4b;
+    margin-bottom: 6px;
+}
+h5 a
+{
+    color: #4b4b4b;
+}
+
+
+.txt1
+{
+    font-size: 1.17em;
+}
+
+.rss
+{
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    background: url(../images/rss.gif) no-repeat right top;
+    padding: 10px 45px 8px 0;
+    color: #7d7d7d;
+    text-decoration: none;
+    font-size: 1.17em;
+    text-transform: uppercase;
+}
+.rss:hover
+{
+    text-decoration: underline;
+}
+
+.link1
+{
+    display: block;
+    position: relative;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-image: url(../images/link1-right.png);
+    color: #fff;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+.link1 span
+{
+    display: block;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(../images/link1-left.png);
+    padding: 0 10px;
+}
+.link1 b
+{
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-image: url(../images/link1-bgd.png);
+    padding: 8px 7px 9px 7px;
+    display: block;
+    float: left;
+}
+.link1:hover b
+{
+    text-decoration: underline;
+}
+
+.link2
+{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    float: right;
+    font-weight: bold;
+    overflow: hidden;
+    line-height: 2.6em;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background: url(../images/link2-bg1.png);
+}
+.link2:hover
+{
+    text-decoration: underline;
+}
+
+
+/*==================boxes====================*/
+.nav-box
+{
+    width: 100%;
+    position: relative;
+    padding-bottom: 11px;
+    margin-top: -23px;
+}
+.nav-box .left
+{
+    padding-left: 20px;
+    background: url(../images/nav-box-left.png) no-repeat left top;
+}
+.nav-box .right
+{
+    padding-right: 20px;
+    background: url(../images/nav-box-right.png) no-repeat right top;
+}
+.nav-box nav
+{
+    height: 72px;
+    background: url(../images/nav-box-tail.png) repeat-x left top;
+}
+.nav-box nav ul
+{
+    padding-top: 13px;
+    width: 100%;
+    overflow: hidden;
+}
+.nav-box nav ul li
+{
+    float: left;
+    font-size: 1.583em;
+    line-height: 1.2em;
+    letter-spacing: -1px;
+}
+.nav-box nav ul li a
+{
+    color: #535353;
+    display: block;
+    float: left;
+    cursor: pointer;
+    background: url(../images/spacer.gif);
+    text-decoration: none;
+    text-shadow: #fff 1px 1px;
+}
+.nav-box nav ul li a:hover, .nav-box nav ul li a.active
+{
+    color: #fff;
+    background: url(../images/nav-act-tail.gif) repeat-x left top;
+    text-shadow: #fff 0 0;
+}
+.nav-box nav ul li a span
+{
+    display: block;
+    float: left;
+    background: url(../images/spacer.gif);
+}
+.nav-box nav ul li a:hover span, .nav-box nav ul li a.active span
+{
+    background: url(../images/nav-act-left.gif) no-repeat left top;
+}
+.nav-box nav ul li a b
+{
+    display: block;
+    float: left;
+    background: url(../images/spacer.gif);
+    padding: 10px 23px 14px 23px;
+}
+.nav-box nav ul li a:hover b, .nav-box nav ul li a.active b
+{
+    background: url(../images/nav-act-right.gif) no-repeat right top;
+}
+
+.box
+{
+    width: 237px;
+    color: #fff;
+}
+.box .top
+{
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(../images/box-top.png);
+    height: 14px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+.box .bot
+{
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(../images/box-bot.png);
+    height: 15px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+.box .xcontent
+{
+    background-repeat: repeat-y;
+    background-position: left top;
+    background-image: url(../images/box-tail.gif);
+}
+.box .xcontent .bg
+{
+    min-height: 137px;
+    height: auto !important;
+    height: 137px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(../images/box-bg.jpg);
+}
+.box .inner
+{
+    padding: 2px 35px 0 26px;
+}
+.box h2
+{
+    font-size: 2.417em;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-shadow: #0b97e4 1px 1px;
+}
+.box p
+{
+    line-height: 1.583em;
+    margin-bottom: 9px;
+}
+/* box style1 */
+.box.style1 .top
+{
+    background-image: url(../images/box-top1.png);
+}
+.box.style1 .bot
+{
+    background-image: url(../images/box-bot1.png);
+}
+.box.style1 .xcontent
+{
+    background-image: url(../images/box-tail1.gif);
+}
+.box.style1 .xcontent .bg
+{
+    background-image: url(../images/box-bg1.jpg);
+}
+.box.style1 .link1
+{
+    background-image: url(../images/link1-right1.png);
+}
+.box.style1 .link1 span
+{
+    background-image: url(../images/link1-left1.png);
+}
+.box.style1 .link1 b
+{
+    background-image: url(../images/link1-bgd1.png);
+}
+.box.style1 h2
+{
+    text-shadow: #78b10b 1px 1px;
+}
+
+/* box style2 */
+.box.style2 .top
+{
+    background-image: url(../images/box-top2.png);
+}
+.box.style2 .bot
+{
+    background-image: url(../images/box-bot2.png);
+}
+.box.style2 .xcontent
+{
+    background-image: url(../images/box-tail2.gif);
+}
+.box.style2 .xcontent .bg
+{
+    background-image: url(../images/box-bg2.jpg);
+}
+.box.style2 .link1
+{
+    background-image: url(../images/link1-right2.png);
+}
+.box.style2 .link1 span
+{
+    background-image: url(../images/link1-left2.png);
+}
+.box.style2 .link1 b
+{
+    background-image: url(../images/link1-bgd2.png);
+}
+.box.style2 h2
+{
+    text-shadow: #ff6900 1px 1px;
+}
+
+/* box style3 */
+.box.style3 .top
+{
+    background-image: url(../images/box-top3.png);
+}
+.box.style3 .bot
+{
+    background-image: url(../images/box-bot3.png);
+}
+.box.style3 .xcontent
+{
+    background-image: url(../images/box-tail3.gif);
+}
+.box.style3 .xcontent .bg
+{
+    background-image: url(../images/box-bg3.jpg);
+}
+.box.style3 .link1
+{
+    background-image: url(../images/link1-right3.png);
+}
+.box.style3 .link1 span
+{
+    background-image: url(../images/link1-left3.png);
+}
+.box.style3 .link1 b
+{
+    background-image: url(../images/link1-bgd3.png);
+}
+.box.style3 h2
+{
+    text-shadow: #ffad07 1px 1px;
+}
+
+
+.box1
+{
+    width: 227px;
+}
+.box1 .top
+{
+    height: 49px;
+    overflow: hidden;
+    background: url(../images/box1-top.png) no-repeat left top;
+}
+.box1 .bot
+{
+    height: 17px;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    background: url(../images/box1-bot.gif) no-repeat left top;
+}
+.main-box .box1 .border-left
+{
+    padding-left: 1px;
+    background: url(../images/box1-border.gif) repeat-y left top;
+}
+.main-box .box1 .border-right
+{
+    padding-right: 1px;
+    background: url(../images/box1-border.gif) repeat-y right top;
+}
+.main-box .box1 .xcontent
+{
+    width: 100%;
+    min-height: 261px;
+    height: auto !important;
+    height: 261px;
+    padding: 0;
+    background: url(../images/box1-tail.gif) repeat-x left top #f8f8f8;
+}
+.main-box .box1 .inner
+{
+    padding: 12px 14px 20px 18px;
+}
+.box1 h2
+{
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 0 0 18px;
+}
+
+.box2
+{
+    width: 227px;
+}
+.box2 .top
+{
+    height: 15px;
+    overflow: hidden;
+    background: url(../images/box2-top.png) no-repeat left top;
+}
+.box2 .bot
+{
+    height: 16px;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    background: url(../images/box2-bot.gif) no-repeat left top;
+}
+.main-box .box2 .border-left
+{
+    padding-left: 1px;
+    background: url(../images/box2-border.gif) repeat-y left top;
+}
+.main-box .box2 .border-right
+{
+    padding-right: 1px;
+    background: url(../images/box2-border.gif) repeat-y right top;
+}
+.main-box .box2 .xcontent
+{
+    width: 100%;
+    min-height: 113px;
+    height: auto !important;
+    height: 113px;
+    padding: 0;
+    background: url(../images/box2-tail.gif) repeat-x left top #f6f6f6;
+}
+.main-box .box2 .inner
+{
+    padding: 0 14px 20px 18px;
+}
+.box2 h2
+{
+    font-weight: bold;
+    color: #3c3c3c;
+    margin-bottom: 16px;
+}
+
+
+.main-box
+{
+    width: 100%;
+}
+.main-box .left-top-corner
+{
+    background: url(../images/left-top-corner.png) no-repeat left top;
+    height: 18px;
+    padding-left: 18px;
+}
+.main-box .right-top-corner
+{
+    background: url(../images/right-top-corner.png) no-repeat right top;
+    height: 18px;
+    padding-right: 18px;
+}
+.main-box .border-top
+{
+    background: url(../images/border-top.png) left top repeat-x;
+    height: 18px;
+    font-size: 0;
+    line-height: 0;
+    width: 100%;
+}
+.main-box .border-left
+{
+    background: url(../images/border-left.png) left top repeat-y;
+    padding-left: 3px;
+}
+.main-box .border-right
+{
+    background: url(../images/border-right.png) right top repeat-y;
+    padding-right: 3px;
+}
+.main-box .xcontent
+{
+    background: #fff;
+    padding: 0 2px;
+}
+.main-box .tail
+{
+    background: url(../images/main-box-tail.gif) repeat-x left top;
+    width: 100%;
+}
+.main-box .inner
+{
+    padding: 3px 15px 0 8px;
+}
+.main-box .inner1
+{
+    padding: 3px 8px 0 25px;
+}
+.main-box .inner1 aside
+{
+    margin: 0;
+}
+.main-box .inner1 #content
+{
+    margin-right: 32px;
+    width: 665px;
+}
+.main-box .inner2
+{
+    padding: 3px 25px 35px 25px;
+}
+.main-box .inner2 #content
+{
+    width: auto;
+    float: none;
+}
+
+
+/*===== content =====*/
+#content h2
+{
+    color: #3e3e3e;
+    letter-spacing: 0;
+    margin-bottom: 16px;
+}
+#content .indent
+{
+    padding-bottom: 60px;
+}
+#content .link2
+{
+    background-image: url(../images/link2-bg2.png);
+    float: left;
+}
+
+/*===== Sidebar =====*/
+aside .indent
+{
+    margin-bottom: 20px;
+}
+
+/*===== footer =====*/
+footer .right
+{
+    padding-right: 3px;
+    background: url(../images/border-right.png) repeat-y right top;
+}
+footer .tail
+{
+    padding: 17px 0 11px 27px;
+    background-color: #2d2d2d;
+}
+footer .line-ver
+{
+    background: url(../images/divider.gif) repeat-y 210px 0;
+    width: 100%;
+    overflow: hidden;
+}
+footer .fleft a
+{
+    color: #535353;
+    text-decoration: none;
+}
+footer .fleft a:hover
+{
+    text-decoration: underline;
+}
+footer .fleft
+{
+    padding-bottom: 8px;
+}
+footer .fleft ul
+{
+    padding: 8px 0 3px 0;
+}
+footer .fleft ul li
+{
+    display: inline;
+}
+footer .fright
+{
+    padding: 0 29px 0 0;
+    text-align: right;
+}
+footer .fright a
+{
+    color: #12b7f4;
+}
+footer .fright ul
+{
+    padding: 8px 0 5px 0;
+}
+footer .fright ul li
+{
+    display: inline;
+    padding-right: 15px;
+    margin-right: 12px;
+    background: url(../images/divider1.gif) no-repeat right 3px;
+}
+footer .fright ul li a
+{
+    text-decoration: none;
+    color: #535353;
+}
+footer .fright ul li a:hover, footer .fright ul li a.active
+{
+    color: #c4c4c4;
+    text-decoration: underline;
+}
+footer .fright ul li.last
+{
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*----- forms -----*/
+
+#subscribe-form .rowElem
+{
+    width: 100%;
+    overflow: hidden;
+}
+#subscribe-form span
+{
+    display: block;
+    width: 193px;
+    height: 26px;
+    margin-bottom: 6px;
+    background: url(../images/input-bg.png) no-repeat left top;
+}
+#subscribe-form input
+{
+    background: none;
+    border: 0;
+    line-height: 1.2em;
+    vertical-align: top;
+    margin: 5px 0 0 10px;
+    color: #8c8d8d;
+    width: 173px;
+}
+#subscribe-form a.fleft
+{
+    color: #4b4b4b;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+    top: 7px;
+}
+
+/*----------------------*/
+/* The Nivo Slider styles */
+#slider_box
+{
+    width: 946px;
+    height: 370px;
+    margin-top: -3px;
+    margin-bottom: 15px;
+    background: url(../images/bg_img.png) 0 0 no-repeat;
+    padding: 21px 0 0 21px;
+}
+#slider
+{
+    position: relative;
+    width: 925px;
+    height: 348px;
+    z-index: 88;
+    overflow: hidden;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 60;
+    display: none;
+}
+/* The slices in the Slider */
+.nivo-slice
+{
+    display: block;
+    position: absolute;
+    z-index: 50;
+    height: 100%;
+}
+
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a
+{
+    position: absolute;
+    bottom: -34px;
+    z-index: 99;
+    cursor: pointer;
+    text-indent: -5000px;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.nivo-prevNav
+{
+    right: 135px;
+    background: url(../images/marker_left.gif) no-repeat;
+}
+.nivo-prevNav:hover
+{
+    background: url(../images/marker_left_active.gif) no-repeat;
+}
+.nivo-nextNav
+{
+    right: 10px;
+    background: url(../images/marker_right.gif) no-repeat;
+}
+.nivo-nextNav:hover
+{
+    background: url(../images/marker_right_active.gif) no-repeat;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav
+{
+    position: absolute;
+    z-index: 99;
+    right: 14px;
+    bottom: 21px;
+}
+.nivo-controlNav a
+{
+    position: relative;
+    z-index: 99;
+    cursor: pointer;
+    text-indent: -5000px;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 6px;
+    background: url(../images/buttons.png) right 0 no-repeat;
+}
+.nivo-controlNav a.active
+{
+    background-position: left;
+}
+
+/* Caption styles */
+.nivo-caption
+{
+    padding-top: 77px;
+    height: 270px;
+    width: 345px;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    color: #fff;
+    z-index: 99;
+}
+.nivo-caption .box
+{
+    display: inline-block;
+    background: url(../images/box.png) no-repeat;
+    font: 24px Arial, Helvetica, sans-serif;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    width: 83px;
+    margin-right: 10px;
+}
+.nivo-caption .text1
+{
+    font: 36px Arial, Helvetica, sans-serif;
+    color: #39c0f8;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 1.2em;
+    margin-top: -7px;
+}
+.nivo-caption .text2
+{
+    font: 48px Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    line-height: 1.2em;
+    margin-top: -10px;
+    letter-spacing: -2px;
+}
+.nivo-caption p
+{
+    font-size: 12px;
+    color: #fff;
+    line-height: 14px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+.nivo-caption a
+{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+    background: url(../images/button-bg.png) 0 0 no-repeat;
+    font: 40px Arial, Helvetica, sans-serif;
+    line-height: 60px;
+    padding-bottom: 3px;
+    text-align: center;
+    width: 194px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: -2px;
+}
+.nivo-caption a:hover
+{
+    background-position: bottom;
+}
+
+.color1 p
+{
+    color: #454545;
+}
+.nivo-caption .color1 .text1
+{
+    font-size: 30px;
+    display: block;
+    color: #454545;
+    margin-top: 0;
+}
+.nivo-caption .color1 .text2
+{
+    color: #3b3b3b;
+    display: inline-block;
+    letter-spacing: -3px;
+}
+.nivo-caption .color1 .box
+{
+    margin-right: 0px;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+
+#contacts-form .rowElem
+{
+    height: 40px;
+}
+#contacts-form .rowElem span
+{
+    display: block;
+    width: 193px;
+    height: 26px;
+    margin-bottom: 6px;
+    background: url(../images/input-bg.png) no-repeat left top;
+}
+#contacts-form input
+{
+    background: none;
+    border: 0;
+    line-height: 1.2em;
+    vertical-align: top;
+    margin: 5px 0 0 10px;
+    color: #8c8d8d;
+    width: 173px;
+}
+#contacts-form .rowElem1 span
+{
+    display: block;
+    width: 193px;
+    height: 175px;
+    margin-bottom: 21px;
+    background: url(../images/textarea-bg.gif) no-repeat left top;
+}
+#contacts-form textarea
+{
+    width: 183px;
+    height: 168px;
+    overflow: auto;
+    background: none;
+    border: 0;
+    color: #8c8d8d;
+    padding: 5px 0 2px 10px;
+}
+#contacts-form .link2
+{
+    margin-left: 15px;
+}
+
+/*==========================================*/
